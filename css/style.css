@@ -1,0 +1,23 @@
+
+  /*particulares*/
+body{
+    background-image: url("../img/stripes.jpg");
+    background-repeat: no-repeat;
+    background-position: top bottom;
+}
+header{
+  height: 6em;
+}
+
+footer{
+    height: auto;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    background-color: #181818;
+    color:#ebebeb
+}
+
+.center{
+    text-align: center
+}
