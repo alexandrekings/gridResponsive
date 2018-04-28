@@ -3,7 +3,17 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    margin: 1.5em .5em 1.5em 0em;
+    color: #888686;
+}
+a:hover{
+    color: #888686;
+}
 footer{
     height: auto;
     text-align: center;
@@ -82,7 +92,15 @@ button{
     text-align: center
 }
 .ficha img{
-    width: 100%
+    width: 100%;
+    -webkit-filter: grayscale(70%);
+    filter: grayscale(70%);
+}
+.ficha img:hover{
+    width: 100%;
+    -webkit-filter: grayscale(20%);
+    filter: grayscale(20%);
+    cursor: pointer;
 }
 .ficha{
     margin: .5em;
@@ -91,7 +109,8 @@ button{
     margin-top: 2em;
 }
 .contact{
-    width: 100%
+    width: 100%;
+    margin-bottom: 2em;
 }
 .contact input, .contact textarea{
     width: 100%;
@@ -110,7 +129,12 @@ button{
     width: 6%;
     color: white;
 }
-
+.puesto{
+    color: #b1b1b1;
+}
+.location{
+    margin-top: 2em;
+}
 
 @media only screen and (max-width: 768px) {
     .desc{
@@ -152,7 +176,7 @@ button{
     #about p{
         padding: .5em 1.5em .5em .5em;
         }
-    .contacto{
+    form{
         padding: 1em 5em 1em 1em;
     }
     .hero {
@@ -166,4 +190,21 @@ button{
         width: 100%;
         height: auto;
     }
+    .contactform{
+            width: auto;
+            margin-bottom: 2em;
+            text-align: center;
+            padding-right: 4em;
+        
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .contactform{
+        width: auto;
+        margin-bottom: 2em;
+        padding-right: 4em;
+        padding-left: 2em;
+    
+}
 }
