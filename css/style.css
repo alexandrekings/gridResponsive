@@ -48,7 +48,7 @@ button{
     text-align: center;
     margin-top: 5.3em;
 }
-.br span{
+.br span:first-child{
     background: black;
     color: white;
     padding: .5em 1em;
@@ -106,6 +106,9 @@ button{
 
 
 @media only screen and (max-width: 768px) {
+    .br span:nth-child(2){
+        display: none;
+    }
     .nav ul {
       text-align: center; 
       width: auto;
@@ -113,6 +116,9 @@ button{
   }
   .logo{
       text-align: center
+  }
+  .menu{
+      display: none;
   }
   .frame {
     padding: .5em;
