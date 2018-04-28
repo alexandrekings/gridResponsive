@@ -26,11 +26,7 @@
   }
 
 @media only screen and (max-width: 768px) {
-  .nav ul {
-    /* text-align: right; */
-    width: auto;
-    margin-right: 4em;
-}
+
     .container {
         width: 100%;
     }
@@ -123,9 +119,12 @@
 
 /*laptop*/
 @media only screen and (min-width: 992px)  and (max-width:1200px){
+  .nav ul {
+    text-align: center;
+    width: auto;
 
-
-    .col-md-12 {
+  }
+      .col-md-12 {
         width: 100%; 
       }
       .col-md-11 {

@@ -30,7 +30,7 @@ button{
 }
 .nav ul{
     text-align: right;
-    width: 100%;
+    width: auto;
 
 }
 .hero{
@@ -60,6 +60,7 @@ button{
 .frame{
     padding: .5em;
     min-height: 10em;
+    text-align: center
 }
 .ficha img{
     width: 100%
@@ -82,4 +83,44 @@ button{
 .contact button{
     background-color: black;
     color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .nav ul {
+      text-align: center; 
+      width: auto;
+      margin-right: 4em;
+  }
+  .logo{
+      text-align: center
+  }
+  .frame {
+    padding: .5em;
+    min-height: 10em;
+    text-align: center;
+    width: 90%;
+    /* display: block; */
+    }
+    .ficha {
+        margin: .5em;
+        padding: .5em 1.5em .5em .5em;
+    }
+    #about p{
+        padding: .5em 1.5em .5em .5em;
+        }
+    .contacto{
+        padding: 1em 5em 1em 1em;
+    }
+    .hero {
+        max-height: 30em;
+        min-height: 13em;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
 }
