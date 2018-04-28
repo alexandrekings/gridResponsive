@@ -26,6 +26,11 @@
   }
 
 @media only screen and (max-width: 768px) {
+  .nav ul {
+    /* text-align: right; */
+    width: auto;
+    margin-right: 4em;
+}
     .container {
         width: 100%;
     }
@@ -70,6 +75,11 @@
 
 
 @media only screen and (min-width: 768px) and (max-width:992px) {
+  .nav ul {
+    /* text-align: right; */
+    width: auto;
+    margin-right: 4em;
+}
     .container {
         width: 100%;
     }
