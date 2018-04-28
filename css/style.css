@@ -103,9 +103,23 @@ button{
     background-color: black;
     color: white;
 }
+.desc{
+    position: absolute;
+    background-color: black;
+    padding: .5em;
+    width: 6%;
+    color: white;
+}
 
 
 @media only screen and (max-width: 768px) {
+    .desc{
+        position: absolute;
+        background-color: black;
+        padding: .5em;
+        width: 16%;
+        color: white;
+    }
     .br span:nth-child(2){
         display: none;
     }
@@ -113,23 +127,23 @@ button{
       text-align: center; 
       width: auto;
       margin-right: 4em;
-  }
-  .logo{
-      text-align: center
-  }
-  .menu{
-      display: none;
-  }
-  .frame {
-    padding: .5em;
-    min-height: 10em;
-    text-align: center;
-    width: 90%;
-    /* display: block; */
     }
+    .logo{
+        text-align: center
+    }
+    .menu{
+        display: none;
+    }
+    .frame {
+        padding: .5em;
+        min-height: 10em;
+        text-align: center;
+        width: 90%;
+        /* display: block; */
+        }
     .br {
-        font-size: 1.5em;
-        margin-top: 3.3em;
+            font-size: 1.5em;
+            margin-top: 3.3em;
     }
     .ficha {
         margin: .5em;
