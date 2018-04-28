@@ -40,6 +40,25 @@ button{
     height: 30em;
     overflow: hidden;
 }
+.br{
+    font-size: 2em;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 5.3em;
+}
+.br span{
+    background: black;
+    color: white;
+    padding: .5em 1em;
+    margin-right: .5em;
+}
+.br h1{
+    font-weight: lighter;
+    letter-spacing: .2em;
+    color: white;
+}
 .hero img{
     width: 100%;
     height: inherit;
@@ -101,6 +120,10 @@ button{
     text-align: center;
     width: 90%;
     /* display: block; */
+    }
+    .br {
+        font-size: 1.5em;
+        margin-top: 3.3em;
     }
     .ficha {
         margin: .5em;
